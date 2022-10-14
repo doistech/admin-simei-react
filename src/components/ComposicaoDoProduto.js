@@ -1,4 +1,4 @@
-import Footer from "./Menu/Footer"
+import Footer from "./Footer"
 import Menu from "./Menu/Menu"
 
 
@@ -10,7 +10,7 @@ function ComposicaoDoProduto () {
     <div>
        <button>Click aqui</button>
     </div>
-    <Footer/>
+    
     </div>
   )
 }

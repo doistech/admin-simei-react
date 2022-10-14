@@ -1,9 +1,8 @@
 .Tabela{
-    text-align: left;
+    text-align: center;
     width: 70%;
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto; 
     overflow-x: scroll;
-    color:white;
 }
