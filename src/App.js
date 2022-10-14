@@ -5,23 +5,15 @@ import Sejabemvindo from './components/Home/Sejabemvindo';
 import Info from './components/Home/Info';
 import Footer from './components/Footer';
 
-
-
-
-
 function App() {
   return (
-    <div>
-     <Menu/>
-     <Sejabemvindo/>
-     
-     <Cards/>
-     <Info/>
-     <Footer/>
-    </div>
-    
-    
+  <div>
+    <Menu/>
+    <Sejabemvindo/>
+    <Cards/>
+    <Info/>
+    <Footer/>
+  </div>
   );
 }
-
 export default App;
