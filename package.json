@@ -1,8 +1,8 @@
 {
-  "name": "facilitamei2.0",
+  "name": "Simei",
   "version": "0.1.0",
   "private": true,
-  "proxy" : "https://simeiapi.doistech.com.br",
+  "proxy": "https://simeiapi.doistech.com.br",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +13,7 @@
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-table-next": "^4.0.3",
     "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
