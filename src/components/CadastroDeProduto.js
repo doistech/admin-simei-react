@@ -1,4 +1,4 @@
-import Footer from "./Footer"
+import Footer from "./Menu/Footer"
 import Menu from "./Menu/Menu"
 
 function CadastroDeProduto () {
@@ -9,7 +9,7 @@ function CadastroDeProduto () {
     <div>
        <button>Click aqui</button>
     </div>
-    
+    <Footer/>
     </div>
   )
 }

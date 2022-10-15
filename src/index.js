@@ -22,7 +22,7 @@ root.render(
 <React.StrictMode>
 <Router>
   <Routes>
-  <Route exact path='/' element={<App/>}></Route>
+  <Route exact path='/App' element={<App/>}></Route>
   <Route path='/Clientes' element={<Clientes/>}></Route>
   <Route path='/CadastroDeProduto' element={<CadastroDeProduto/>}></Route>
   <Route path='/ComposicaoDoProdutos' element={<ComposicaoDoProdutos/>}></Route>

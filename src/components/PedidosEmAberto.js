@@ -1,5 +1,6 @@
-import Footer from "./Footer"
+import Footer from "./Menu/Footer"
 import Menu from "./Menu/Menu"
+
 
 
 function PedidosEmAberto () {
@@ -10,7 +11,7 @@ function PedidosEmAberto () {
     <div>
        <button>Click aqui</button>
     </div>
-    
+    <Footer/>
     </div>
   )
 }
