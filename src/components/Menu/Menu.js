@@ -16,7 +16,7 @@ function Menu() {
     <Navbar.Collapse id="basic-navbar-nav">
           
     <Nav >
-    <Nav.Link  href="/Clientes">Clientes</Nav.Link>
+    <Nav.Link  href="/Tabela2">Clientes</Nav.Link>
     <NavDropdown title="Produtos" id="basic-nav-dropdown">
     <NavDropdown.Item href="/CadastroDeProduto">Cadastro de Produtos</NavDropdown.Item>
     <NavDropdown.Item href="/ComposicaoDoProdutos">Composição do Produto</NavDropdown.Item>

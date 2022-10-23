@@ -14,6 +14,9 @@ import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.m
 import 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';*/
 import Clientes from './components/Clientes/Clientes';
+import Tabela2 from './components/Clientes/Tabela2'
+import CadastroClientes from './components/Clientes/CadastroClientes';
+import EditarCliente from './components/Clientes/EditarCliente';
 
 
 
@@ -23,8 +26,10 @@ root.render(
 <React.StrictMode>
 <Router>
   <Routes>
-  <Route exact path='/App' element={<App/>}></Route>
-  <Route path='/Clientes' element={<Clientes/>}></Route>
+  <Route exact path='/' element={<App/>}></Route>
+  <Route path='/Tabela2' element={<Tabela2/>}></Route>
+  <Route path='/EditarCliente' element={<EditarCliente/>}></Route>
+  <Route path='/CadastroClientes' element={<CadastroClientes/>}></Route>
   <Route path='/CadastroDeProduto' element={<CadastroDeProduto/>}></Route>
   <Route path='/ComposicaoDoProdutos' element={<ComposicaoDoProdutos/>}></Route>
   <Route path='/PedidosConcluidos' element={<PedidosConcluidos/>}></Route>
