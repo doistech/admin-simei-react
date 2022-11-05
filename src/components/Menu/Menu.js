@@ -11,12 +11,12 @@ function Menu() {
   return (
   <Navbar className="Navbar" expand="lg">
     <Container>
-    <Navbar.Brand  href="/App"><img src={Logo} alt="DoisTech" width='120px'/></Navbar.Brand>
+    <Navbar.Brand  href="/"><img src={Logo} alt="DoisTech" width='120px'/></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
           
     <Nav >
-    <Nav.Link  href="/Tabela2">Clientes</Nav.Link>
+    <Nav.Link  href="/Clientes">Clientes</Nav.Link>
     <NavDropdown title="Produtos" id="basic-nav-dropdown">
     <NavDropdown.Item href="/CadastroDeProduto">Cadastro de Produtos</NavDropdown.Item>
     <NavDropdown.Item href="/ComposicaoDoProdutos">Composição do Produto</NavDropdown.Item>
