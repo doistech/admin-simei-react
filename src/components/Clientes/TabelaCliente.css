@@ -1,16 +1,12 @@
-@media (min-width: 800px),(min-height: 800px){
 .Tabela{
     text-align: left;
-    width: 80%;
+    width: 75%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto; 
-    /*overflow-x: scroll;*/
+    overflow-x: scroll;
     color:white;
     font-size: small;
-    margin-bottom: 10%;
-  
-    
 }
 #thead{
 background-color: dodgerblue;
@@ -19,19 +15,5 @@ color: white;
 
 #Button{
     padding: 5px;
-    font-size: small;
+    font-size: x-small;
 }
-
-.clientes{
-    position: flex;
-    width: 100%;
-    height: 100px;
-    display: -ms-flexbox;
-    display: flex;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #afaeae;
-    background-clip: border-box;
-    padding: 1,25rem;
-    
-}}

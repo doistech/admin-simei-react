@@ -99,8 +99,8 @@ function Clientes() {
                     <td>{cliente.createdBy}</td>
                     <td>{cliente.updatedBy}</td>
                     <td>{cliente.adress}</td>
-                     <td><Link to='/EditarCliente'><Button id="Button" variant="link" onClick={() => setData(cliente)}>Editar</Button></Link>{/*{' '}
-                      <Button variant="link" id="Button"  onClick={() => onDelete(cliente.id)}>Excluir</Button>*/}</td> 
+                    <td><Link to='/EditarCliente'><Button id="Button" variant="link" onClick={() => setData(cliente)}>Editar</Button></Link>{' '}
+                      <Button variant="link" id="Button"  onClick={() => onDelete(cliente.id)}>Excluir</Button></td>
                   </tr>);
               })
             }
@@ -114,7 +114,7 @@ function Clientes() {
           onPageChange={page => setCurrentPage(page)}
         />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 
