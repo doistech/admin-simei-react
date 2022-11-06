@@ -1,9 +1,33 @@
 .Tabela{
     text-align: left;
-    width: 75%;
+    width: 80%;
     margin-top: auto;
     margin-left: auto;
     margin-right: auto; 
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
     color:white;
+    font-size: small;
+}
+#thead{
+background-color: dodgerblue;
+color: white;
+}
+
+#Button{
+    padding: 5px;
+    font-size: small;
+}
+
+.clientes{
+    position: flex;
+    width: 100%;
+    height: 100px;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #afaeae;
+    background-clip: border-box;
+    padding: 1,25rem;
+    
 }
