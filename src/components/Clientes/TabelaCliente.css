@@ -1,3 +1,4 @@
+@media (min-width: 800px),(min-height: 800px){
 .Tabela{
     text-align: left;
     width: 80%;
@@ -7,6 +8,9 @@
     /*overflow-x: scroll;*/
     color:white;
     font-size: small;
+    margin-bottom: 10%;
+  
+    
 }
 #thead{
 background-color: dodgerblue;
@@ -30,4 +34,4 @@ color: white;
     background-clip: border-box;
     padding: 1,25rem;
     
-}
+}}
