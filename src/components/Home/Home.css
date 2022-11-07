@@ -1,5 +1,7 @@
 
-.cardConteiner{
+
+@media (min-width: 800px),(min-height: 800px)
+{.cardConteiner{
     margin-top: auto;
     width: 80%;
     padding-right: 15px;
@@ -130,5 +132,5 @@ font-family: Futura;
 font-size: 12px;
 }
     
-
+}
 
