@@ -9,13 +9,10 @@ import ComposicaoDoProdutos from './components/ComposicaoDoProduto';
 import PedidosConcluidos from './components/PedidosConcluidos';
 import PedidosEmAberto from './components/PedidosEmAberto';
 import RealizarPedidos from './components/RealizarPedidos';
-/*import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
-import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
-import 'react-bootstrap-table2-toolkit/dist/react-bootstrap-table2-toolkit.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';*/
 import Clientes from './components/Clientes/Clientes';
 import CadastroClientes from './components/Clientes/CadastroClientes';
 import EditarCliente from './components/Clientes/EditarCliente';
+import NovoProduto from './components/Produtos/NovoProduto';
 
 
 
@@ -34,6 +31,7 @@ root.render(
   <Route path='/PedidosConcluidos' element={<PedidosConcluidos/>}></Route>
   <Route path='/PedidosEmAberto' element={<PedidosEmAberto/>}></Route>
   <Route path='/RealizarPedidos' element={<RealizarPedidos/>}></Route>
+  <Route path='/NovoProduto' element={<NovoProduto/>}></Route>
   </Routes>
   </Router>
 </React.StrictMode>
